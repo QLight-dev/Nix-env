@@ -1,0 +1,44 @@
+# Build directories
+/build/
+/bin/
+/obj/
+/out/
+
+/# Compiled object files, libraries, and executables
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# CMake and other build tools
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+Makefile.in
+*.cmake
+*.orig
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Nix-related files
+.nix-defexpr/
+.nix-channels
+/nix/store/
+
+# Other possible system files
+*~
